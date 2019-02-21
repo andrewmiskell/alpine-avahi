@@ -1,0 +1,12 @@
+image: andrewmiskell/alpine-avahi:latest
+manifests:
+  -
+    image: andrewmiskell/alpine-avahi:armhf
+    platform:
+      architecture: arm
+      os: linux
+  -
+    image: andrewmiskell/alpine-avahi:amd64
+    platform:
+      architecture: amd64
+      os: linux
